@@ -1,4 +1,5 @@
-.banner  .btn-contact {
+.banner .form-container,
+.btn-contact {
   width: 50%;
   margin: 0 auto;
   display: block;
@@ -13,6 +14,6 @@
   transition: ease 0.3;
 }
 
-.banner .btn-contact:hover {
+.banner .form-container, .btn-contact:hover {
   background-color: $purple-color;
 }
