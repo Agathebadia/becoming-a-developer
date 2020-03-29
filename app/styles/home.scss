@@ -1,0 +1,102 @@
+.banner {
+color: #dce1dd;
+background-image: url("../assets/images/white-sky.jpg") ;
+background-size: cover;
+object-fit: cover;
+background-position: center;
+padding: 200px 0;
+display: flex;
+justify-content: center;
+padding-top: 150px;
+height: 700px;
+}
+
+.banner h1, p {
+  text-shadow: 2px 2px 2px #000;
+}
+
+.banner p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.container-banner {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.card {
+  background-color: #f2f3f4;
+  color: #7A7069;
+  width: 200px;
+  max-height: 320px;
+  font-size: 12px;
+  border-radius: 3px;
+  // box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  p {
+    text-shadow: none;
+  }
+}
+
+.align-right {
+  float: right;
+  margin-left: 1em;
+}
+
+.align-left {
+  float: left;
+  margin-right: 1em;
+}
+
+.card > i.fas {
+  width:100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.site-wrap {
+      max-width: 700px;
+      margin: 100px auto;
+      padding: 40px;
+      // text-align: justify;
+    }
+
+.slide-in {
+      opacity: 0;
+      transition: all .5s;
+      // margin-bottom: 4em;
+    }
+
+    .align-left.slide-in {
+      transform: translateX(-30%) scale(0.95);
+    }
+
+    .align-right.slide-in {
+      transform: translateX(30%) scale(0.95);
+    }
+
+    .slide-in.active {
+      opacity: 1;
+      transform: translateX(0%) scale(1);
+    }
+
+.justify-text {
+  text-align: justify;
+}
+
+.container-card-img {
+  max-height: 320px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
+   img {
+    border-radius: 3px;
+  }
+}

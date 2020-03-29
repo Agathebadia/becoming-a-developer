@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BecomingADeveloper</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{content-for "head"}}
+<head>
+  <title>BecomingADev</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <base href="/"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="{{rootURL}}assets/becoming-a-dev.css"> -->
 
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/becoming-a-developer.css">
+  {{content-for "head"}}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <!-- <link integrity="" rel="stylesheet" href="{{rootURL}}assets/app.css"> -->
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/becoming-a-developer.css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
+  {{content-for "head-footer"}}
+</head>
 
-    {{content-for "head-footer"}}
-  </head>
-  <body>
-    {{content-for "body"}}
+<body>
+  {{content-for "body"}}
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/becoming-a-developer.js"></script>
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/becoming-a-developer.js"></script>
 
-    {{content-for "body-footer"}}
-  </body>
+  {{content-for "body-footer"}}
+</body>
+
 </html>

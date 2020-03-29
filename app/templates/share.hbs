@@ -1,0 +1,48 @@
+{{#form-builder}}
+
+<div class="form-container">
+  <div class="name-input">
+  <label for="name">Your name</label>
+  <Input id="name" type="text" />
+  </div>
+
+  <div class="year-input">
+  <label for="year">What year did you start as a developer?</label>
+  <Input id="year" />
+  </div>
+
+  <div class="background-input">
+  <label for="background">Tell us about your background: What were you doing before being a developer?</label>
+  <textarea id="background" width="80%"  />
+  </div>
+
+  <div class="interest-input">
+  <label for="interest">How did you gain interest in development?</label>
+  <textarea id="interest" />
+  </div>
+
+  <div class="learn-input">
+  <label for="learn">How did you learn programming?</label>
+  <textarea id="learn" />
+  </div>
+
+  <div class="job-input">
+  <label for="job">How did you find your first developer role?</label>
+  <textarea id="job" />
+  </div>
+
+  <div class="recommendations-input">
+  <label for="recommendations">What recommendations would you give to future developers?</label>
+  <textarea id="recommendations" />
+  </div>
+
+  <label for="picture">Add a picture or an avatar</label>
+
+    {{f.input "category" collection=categories}}
+    {{f.input "isPublished"}}
+    {{f.input "publishedOn" as="date"}}
+    {{f.input "price" hint="Leave empty if this is a free article"}}
+
+    {{!-- {{f.submit}} --}}
+</div>
+{{/form-builder}}
