@@ -1,10 +1,12 @@
-.ember-view {
-  .form-container {
-      width: 80%;
-      position: absolute;
-      top: 15%;
-      left: 18%;
+.form-container {
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  .input {
+    margin-top: 1rem;
+  }
+  textarea {
+    width: 100%;
   }
 }
-
-

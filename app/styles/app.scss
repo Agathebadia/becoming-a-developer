@@ -1,5 +1,6 @@
 /* Import other files */
 @import 'home';
+@import 'share';
 @import 'stories';
 @import 'components';
 
@@ -11,7 +12,6 @@
 
 /* Utilities */
 body {
-  margin: 0;
   font-family: Open Sans;
   background-color: black;
   color: white;
@@ -24,6 +24,3 @@ h1, h2, h3, h4 {
 a {
   text-decoration: none;
 }
-
-/* Custom design below! */
-
