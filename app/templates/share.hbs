@@ -1,6 +1,7 @@
 {{#form-builder}}
 
 <div class="form-container">
+  <h1>Share your story!</h1>
   <div class="card-name-year">
     <div class="name-input">
       <label for="name">Your name</label>
@@ -15,9 +16,9 @@
 
   <div class="email-input">
     <label for="email">Your email</label>
-    <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimonies is
-      released! It will never be shared to the other users.</div>
-    <Input id="email" type="text" />
+    <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
+      released! It will never be shared to other users.</div>
+    <Input id="email" type="email" />
   </div>
 
 
@@ -46,7 +47,24 @@
       <textarea id="recommendations" />
     </div>
 
-    <label for="picture">Add a picture or an avatar</label>
+    <div class="input">
+      <label for="picture">Add a picture or an avatar</label>
+    </div>
+
+    <div class="input">
+      <label for="picture">I agree to be contacted by the readers:</label>
+    </div>
+
+    <div class="checkbox-contact">
+      <Input type="radio" class="yes-contact" {{ on "click"(fn this.changeYesContent true) }}></Input><label>Yes</label>
+      <Input type="radio" class="no-contact"></Input><label>No</label>
+    </div>
+
+{{log this.yesContact}}
+    {{#if this.yesContact}}
+      <label class="yes-contact" for="social-media">Social media</label>
+      <Input class="yes-contact" placeholder="Linkedin, Twitter, Github, etc."></Input>
+    {{/if}}
 
     <button class="btn-contact">Submit</button>
   </div>
