@@ -1,12 +1,38 @@
-.form-container {
-  width: 80%;
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  .input {
-    margin-top: 1rem;
+body {
+ background-image: url("../assets/images/white-sky.jpg") ;
+  .form-container {
+    color: #86929e;
+    background-color: #25292D;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px 20px 15px 20px;
+    border-radius: 4px;
+
+    .card-name-year {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      label {
+        margin-top: 1.5rem;
+      }
+    }
+    textarea, input {
+      width: 100%;
+      background-color: #252A2D;
+      margin-bottom: 1.5rem;
+      border-top: #252A2D;
+      border-left: #252A2D;
+      border-right: #252A2D;
+      border-bottom: 1px solid #69717a;
+    }
   }
-  textarea {
-    width: 100%;
-  }
+}
+
+#name{
+        width: 80%;
+}
+
+#email, #year {
+  width: 50%;
 }
