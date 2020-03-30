@@ -1,16 +1,16 @@
-{{#form-builder}}
+<form action="https://formspree.io/xqklrdbr" method="POST">
 
 <div class="form-container">
   <h1>Share your story!</h1>
   <div class="card-name-year">
     <div class="name-input">
       <label for="name">Your name</label>
-      <Input id="name" type="text" />
+      <Input id="name" name="name" type="text" />
     </div>
 
     <div class="input">
       <label for="year">What year did you start as a developer?</label>
-      <Input id="year" type="number" />
+      <Input id="year" type="number" name="year" />
     </div>
   </div>
 
@@ -18,69 +18,60 @@
     <label for="email">Your email</label>
     <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
       released! It will never be shared to other users.</div>
-    <Input id="email" type="email" />
+    <Input id="email" type="email" name="email" />
   </div>
 
 
   <div class="input">
     <label for="background margin-top">Tell us about your background: What were you doing before being a developer?</label>
-    <textarea id="background" width="80%" />
+    <textarea id="background" width="80%" name="background" />
     </div>
 
     <div class="input">
       <label for="interest margin-top">How did you gain interest in development?</label>
-      <textarea id="interest" />
+      <textarea id="interest" name="interest" />
     </div>
 
     <div class="input">
       <label for="learn margin-top">How did you learn programming?</label>
-      <textarea id="learn" />
+      <textarea id="learn" name="learn" />
     </div>
 
     <div class="input">
       <label for="job margin-top">How did you find your first developer role?</label>
-      <textarea id="job" />
+      <textarea id="job" name="job" />
     </div>
 
     <div class="input">
       <label for="recommendations margin-top">What recommendations would you give to future developers?</label>
-      <textarea id="recommendations" />
+      <textarea id="recommendations" name="recommendations" />
     </div>
 
     <div class="input">
       <label for="picture">Add a picture or an avatar</label>
+      <input type="file" name="upload">
     </div>
 
-    <div class="input">
-      <label for="consent">I agree to be contacted by the readers:</label>
-    </div>
-
-    <div class="checkbox-contact">
-      <Input type="radio" name="contacted-by-users" class="yes-contact" {{ on "click"(fn this.changeYesContent true) }}></Input>
-      <label>Yes</label>
-      <Input type="radio" name="contacted-by-users" class="no-contact" {{ on "click"(fn this.changeYesContent false) }}></Input>
-      <label>No</label>
-    </div>
+  <div class="toggle-consent">
+    <XToggle @theme='light' @value={{this.yesContact}} @onToggle={{action (mut this.yesContact)}} />
+    <div class="consent-statement">I agree/disagree to be contacted by the readers through social media</div>
+  </div>
 
     {{#if this.yesContact}}
       <label for="social-media">Social media</label>
-      <Input placeholder="Linkedin, Twitter, Github, etc."></Input>
+      <Input name="social-media" placeholder="Linkedin, Twitter, Github, etc."></Input>
     {{/if}}
 
-    {{!-- <Input type="checkbox" class="email-consent"
-      {{ on "click"(fn this.consentToBeContacted true) }} {{ on "doubleClick"(fn this.emailContent false) }}></Input>
-      <label>I consent to be contacted by the admin via email</label>
+    <div class="toggle-consent">
+      <XToggle @theme='light' @value={{this.emailConsent}} @onToggle={{action (mut this.emailConsent)}} />
+      <div class="consent-statement">I consent to be contacted by the admin via email</div>
+    </div>
 
     {{#if this.emailConsent}}
       <button class="btn-contact">Submit</button>
     {{else}}
-      <button class="btn-contact-disabled" value="false" disabled="disabled">Submit</button>
-    {{/if}} --}}
-
-    <XToggle @theme='material' @value={{this.emailConsent}} @onToggle={{action (mut this.emailConsent)}} /><label>I consent to be contacted by the admin via email</label>
-
-    {{#if this.emailConsent}}
-      <button class="btn-contact">Submit</button>
+      <button class="btn-contact-disabled" disabled="disabled">Submit</button>
     {{/if}}
+
   </div>
-{{/form-builder}}
+</form>

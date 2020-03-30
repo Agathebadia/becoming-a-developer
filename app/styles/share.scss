@@ -32,7 +32,22 @@ body {
     }
     .checkbox-contact {
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
+      .radio-label {
+        display: flex;
+        margin-bottom: 2rem;
+        input {
+          margin: 0 30px 0 30px;
+          height: 2rem;
+        }
+      }
+    }
+    .toggle-consent {
+      display: flex;
+      align-items: center;
+      .x-toggle-component {
+        padding-right: 2rem;
+      }
     }
   }
 }
@@ -48,3 +63,7 @@ body {
 textarea {
   min-height: 50px;
 }
+
+
+
+
