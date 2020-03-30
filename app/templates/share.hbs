@@ -52,21 +52,35 @@
     </div>
 
     <div class="input">
-      <label for="picture">I agree to be contacted by the readers:</label>
+      <label for="consent">I agree to be contacted by the readers:</label>
     </div>
 
     <div class="checkbox-contact">
-      <Input type="radio" class="yes-contact" {{ on "click"(fn this.changeYesContent true) }}></Input><label>Yes</label>
-      <Input type="radio" class="no-contact"></Input><label>No</label>
+      <Input type="radio" name="contacted-by-users" class="yes-contact" {{ on "click"(fn this.changeYesContent true) }}></Input>
+      <label>Yes</label>
+      <Input type="radio" name="contacted-by-users" class="no-contact" {{ on "click"(fn this.changeYesContent false) }}></Input>
+      <label>No</label>
     </div>
 
-{{log this.yesContact}}
     {{#if this.yesContact}}
-      <label class="yes-contact" for="social-media">Social media</label>
-      <Input class="yes-contact" placeholder="Linkedin, Twitter, Github, etc."></Input>
+      <label for="social-media">Social media</label>
+      <Input placeholder="Linkedin, Twitter, Github, etc."></Input>
     {{/if}}
 
-    <button class="btn-contact">Submit</button>
-  </div>
+    {{!-- <Input type="checkbox" class="email-consent"
+      {{ on "click"(fn this.consentToBeContacted true) }} {{ on "doubleClick"(fn this.emailContent false) }}></Input>
+      <label>I consent to be contacted by the admin via email</label>
 
+    {{#if this.emailConsent}}
+      <button class="btn-contact">Submit</button>
+    {{else}}
+      <button class="btn-contact-disabled" value="false" disabled="disabled">Submit</button>
+    {{/if}} --}}
+
+    <XToggle @theme='material' @value={{this.emailConsent}} @onToggle={{action (mut this.emailConsent)}} /><label>I consent to be contacted by the admin via email</label>
+
+    {{#if this.emailConsent}}
+      <button class="btn-contact">Submit</button>
+    {{/if}}
+  </div>
 {{/form-builder}}
