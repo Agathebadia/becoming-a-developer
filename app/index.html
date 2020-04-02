@@ -14,10 +14,30 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-  <!-- <link integrity="" rel="stylesheet" href="{{rootURL}}assets/app.css"> -->
   <link integrity="" rel="stylesheet" href="{{rootURL}}assets/becoming-a-developer.css">
   <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
     type='text/css'>
+  <script>
+    UPLOADCARE_PUBLIC_KEY = '574cd7f45bc7130659b1';
+  </script>
+  <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+  <style>
+    .uploader-button .uploadcare--widget__button_type_open {
+      background-color: #4c3355;
+    }
+  </style>
+
+  <script>
+    UPLOADCARE_LOCALE_TRANSLATIONS = {
+      buttons: {
+        choose: {
+          files: {
+            one: 'Upload image'
+          }
+        }
+      }
+    }
+  </script>
   {{content-for "head-footer"}}
 </head>
 

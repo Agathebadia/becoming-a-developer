@@ -48,8 +48,11 @@
     </div>
 
     <div class="input">
-      <label for="picture">Add a picture or an avatar</label>
-      <input type="file" name="upload">
+      <span for="picture">Add a picture or an avatar</span>
+      <span class="uploader-button">
+        <input type="hidden" name="image" role="uploadcare-uploader"
+          data-tabs="file camera url facebook instagram gdrive gphotos onedrive" />
+      </span>
     </div>
 
   <div class="toggle-consent">
