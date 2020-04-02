@@ -1,7 +1,6 @@
 body {
  background-image: url("../assets/images/white-sky.jpg") ;
  background-size: cover;
-  object-fit: cover;
 
   .form-container {
     h1 {
@@ -36,6 +35,9 @@ body {
     }
     textarea, input {
       width: 90%;
+      font-size: 14px;
+      font-style: oblique;
+      font-weight: bold;
       color: #BD7C91;
       background-color: #252A2D;
       margin-bottom: 3rem;
@@ -78,6 +80,9 @@ textarea {
   min-height: 50px;
 }
 
-
+label {
+  font-weight: bold;
+  color: #b5bfc9;
+}
 
 
