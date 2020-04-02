@@ -2,7 +2,7 @@
 
 <div class="form-container">
   <h1>Share your story!</h1>
-  <div class="card-name-year">
+  <div class="card-two-elements">
     <div class="name-input">
       <label for="name">Your name</label>
       <Input id="name" name="name" type="text" />
@@ -14,13 +14,22 @@
     </div>
   </div>
 
-  <div class="email-input">
-    <label for="email">Your email</label>
-    <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
-      released! It will never be shared to other users.</div>
-    <Input id="email" type="email" name="email" />
-  </div>
+  <div class="card-two-elements">
+    <div class="email-input">
+      <label for="email">Your email</label>
+      <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
+        released! It will never be shared to other users.</div>
+      <Input id="email" type="email" name="email" />
+    </div>
 
+    <div class="upload-input">
+      <label for="picture">Add a picture or an avatar</label>
+      <div class="uploader-button">
+        <Input type="hidden" name="image" role="uploadcare-uploader"
+          data-tabs="file camera url facebook instagram gdrive gphotos onedrive" />
+      </div>
+    </div>
+  </div>
 
   <div class="input">
     <label for="background margin-top">Tell us about your background: What were you doing before being a developer?</label>
@@ -47,17 +56,9 @@
       <textarea id="recommendations" name="recommendations" />
     </div>
 
-    <div class="input">
-      <span for="picture">Add a picture or an avatar</span>
-      <span class="uploader-button">
-        <input type="hidden" name="image" role="uploadcare-uploader"
-          data-tabs="file camera url facebook instagram gdrive gphotos onedrive" />
-      </span>
-    </div>
-
   <div class="toggle-consent">
     <XToggle @theme='light' @value={{this.yesContact}} @onToggle={{action (mut this.yesContact)}} />
-    <div class="consent-statement">I agree/disagree to be contacted by the readers through social media</div>
+    <div class="consent-statement">I agree/disagree to share my social media's contact on the testimony</div>
   </div>
 
     {{#if this.yesContact}}

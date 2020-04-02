@@ -12,13 +12,23 @@ body {
     padding: 40px 20px 15px 45px;
     border-radius: 4px;
 
-    .card-name-year {
+    .card-two-elements {
       display: flex;
-      justify-content: space-between;
+      justify-content: end;
       align-items: flex-start;
       label {
         margin-top: 1.5rem;
       }
+      .email-input {
+        width: 60%;
+        #email {
+          width: 80%;
+        }
+      }
+      .uploader-button {
+        display: flex;
+        justify-content: center;
+        }
     }
     textarea, input {
       width: 90%;

@@ -33,3 +33,12 @@
   border-radius: 6px;
   transition: ease 0.3;
 }
+
+.uploadcare--widget__button_type_open {
+  border: solid 1px #d8d8d8;
+  margin-top: 1rem;
+  background-color: $black;
+  &:hover {
+    background-color: $purple-color;
+  }
+}
