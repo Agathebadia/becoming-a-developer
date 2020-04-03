@@ -38,8 +38,11 @@ height: 700px;
 .text-center {
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  width: 50%;
+  margin: 0 auto;
   color: #b5bfc9;
+  border-bottom: 5px solid #610EB1;
 }
 
 .card {
@@ -50,7 +53,7 @@ height: 700px;
   font-size: 12px;
   border-radius: 3px;
   padding: 20px;
-  border: 1px solid rgb(230,230,230);
+
   p {
     text-shadow: none;
   }
@@ -106,9 +109,13 @@ height: 700px;
   max-height: 320px;
   display: flex;
   justify-content: center;
-  margin-bottom: 4em;
+  margin-bottom: 6em;
+  margin-top: 4rem;
    img {
     border-radius: 3px;
+  }
+  &:last-child {
+  margin-bottom: 0;
   }
 }
 
