@@ -27,7 +27,11 @@ height: 700px;
 
 .container {
   background-color: #24292c;
-  padding-bottom: 3rem;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  &:last-child {
+    padding-top: 0;
+  }
   #responsive-image {
     width: 50%;
     height: auto;
@@ -37,12 +41,15 @@ height: 700px;
 
 .text-center {
   text-align: center;
-  padding-top: 3em;
+  padding-top: 0em;
   padding-bottom: 1em;
   width: 50%;
   margin: 0 auto;
   color: #b5bfc9;
   border-bottom: 5px solid #610EB1;
+  &:last-child {
+    padding-top: 0;
+  }
 }
 
 .card {
@@ -119,3 +126,6 @@ height: 700px;
   }
 }
 
+.fas {
+  margin-bottom: 1rem;
+}
