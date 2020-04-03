@@ -18,8 +18,8 @@
 }
 
 html {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -27,14 +27,15 @@ html {
 body {
   font-family: Open Sans;
   color: white;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 
 html#page-share{
   background-image: url("../assets/images/white-sky.jpg") ;
   background-size: cover;
+  font-family: Open Sans;
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -42,8 +43,6 @@ html#page-share{
 
 h1, h2, h3, h4 {
   font-family: Poppins;
-  margin: 0;
-  padding: 0;
 }
 
 a {
