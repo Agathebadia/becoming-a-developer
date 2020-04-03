@@ -3,6 +3,7 @@ color: #dce1dd;
 background-image: url("../assets/images/white-sky.jpg");
 background-size: cover;
 object-fit: cover;
+background-repeat: no-repeat;
 background-position: center;
 padding: 200px 0;
 display: flex;
@@ -26,8 +27,6 @@ height: 700px;
 
 .container {
   background-color: #24292c;
-  width: 100vw;
-  padding: 0rem 5rem 2rem 5rem;
 }
 
 .text-center {

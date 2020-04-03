@@ -1,10 +1,9 @@
-body {
- background-image: url("../assets/images/white-sky.jpg") ;
- background-size: cover;
-
   .form-container {
+    // position: absolute;
+    top: 0;
     h1 {
-      margin-bottom: 3rem;
+      // margin-bottom: 3rem;
+      margin: 0;
     }
     color: #86929e;
     background-color: #25292D;
@@ -66,7 +65,7 @@ body {
       }
     }
   }
-}
+
 
 #name{
         width: 80%;

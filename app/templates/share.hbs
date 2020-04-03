@@ -1,86 +1,88 @@
-<form action="https://formspree.io/xqklrdbr" method="POST">
+<html id="page-share">
+  <form action="https://formspree.io/xqklrdbr" method="POST">
 
-  <div class="form-container">
-    <h1>Share your story!</h1>
-    <div class="card-two-elements">
-      <div class="name-input">
-        <label for="name">Your name</label>
-        <Input id="name" name="name" type="text" required="true" />
+    <div class="form-container">
+      <h1>Share your story!</h1>
+      <div class="card-two-elements">
+        <div class="name-input">
+          <label for="name">Your name</label>
+          <Input id="name" name="name" type="text" required="true" />
+        </div>
+
+        <div class="input">
+          <label for="year">What year did you start as a developer?</label>
+          <Input id="year" type="number" name="year" required="true" />
+        </div>
+      </div>
+
+      <div class="card-two-elements">
+        <div class="email-input">
+          <label for="email">Your email</label>
+          <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
+            released! It will never be shared to other users.</div>
+          <Input id="email" type="email" name="email" required="true" />
+        </div>
+
+        <div class="upload-input">
+          <label for="picture">Add a picture or an avatar</label>
+          <div class="uploader-button">
+            <Input type="hidden" name="image" role="uploadcare-uploader"
+              data-tabs="file camera url facebook instagram gdrive gphotos onedrive" />
+          </div>
+        </div>
       </div>
 
       <div class="input">
-        <label for="year">What year did you start as a developer?</label>
-        <Input id="year" type="number" name="year" required="true" />
-      </div>
-    </div>
-
-    <div class="card-two-elements">
-      <div class="email-input">
-        <label for="email">Your email</label>
-        <div class="label-description" style="font-style: italic; font-size: 12px">To contact you once your testimony is
-          released! It will never be shared to other users.</div>
-        <Input id="email" type="email" name="email" required="true" />
-      </div>
-
-      <div class="upload-input">
-        <label for="picture">Add a picture or an avatar</label>
-        <div class="uploader-button">
-          <Input type="hidden" name="image" role="uploadcare-uploader"
-            data-tabs="file camera url facebook instagram gdrive gphotos onedrive" />
+        <label for="background margin-top">Tell us about your background: What were you doing before?</label>
+        <div class="label-description" style="font-style: italic; font-size: 12px">What professional path were you taking? <br> Min 100 characters
         </div>
+        <textarea id="background" width="80%" name="background" required="true" minlength="100" />
+        </div>
+
+      <div class="input">
+        <label for="interest margin-top">How did you gain interest in development?</label>
+        <div class="label-description" style="font-style: italic; font-size: 12px">From a striking event? Someone? Your personal or working environment? <br> Min 200 characters</div>
+        <textarea id="interest" name="interest" required="true" minlength="200" />
       </div>
-    </div>
 
-    <div class="input">
-      <label for="background margin-top">Tell us about your background: What were you doing before?</label>
-      <div class="label-description" style="font-style: italic; font-size: 12px">What professional path were you taking? <br> Min 100 characters
-      </div>
-      <textarea id="background" width="80%" name="background" required="true" minlength="100" />
+      <div class="input">
+        <label for="learn margin-top">How did you learn programming?</label>
+        <div class="label-description" style="font-style: italic; font-size: 12px">What path did you go through to achieve your goal? :D <br> Min 200 characters</div>
+        <textarea id="learn" name="learn" required="true" minlength="200" />
       </div>
 
-    <div class="input">
-      <label for="interest margin-top">How did you gain interest in development?</label>
-      <div class="label-description" style="font-style: italic; font-size: 12px">From a striking event? Someone? Your personal or working environment? <br> Min 200 characters</div>
-      <textarea id="interest" name="interest" required="true" minlength="200" />
-    </div>
+      <div class="input">
+        <label for="job margin-top">How did you find your first developer role?</label>
+        <div class="label-description" style="font-style: italic; font-size: 12px">Tell us more about your quest for the holy grail! <br> Min 200 characters</div>
+        <textarea id="job" name="job" required="true" minlength="200" />
+      </div>
 
-    <div class="input">
-      <label for="learn margin-top">How did you learn programming?</label>
-      <div class="label-description" style="font-style: italic; font-size: 12px">What path did you go through to achieve your goal? :D <br> Min 200 characters</div>
-      <textarea id="learn" name="learn" required="true" minlength="200" />
-    </div>
-
-    <div class="input">
-      <label for="job margin-top">How did you find your first developer role?</label>
-      <div class="label-description" style="font-style: italic; font-size: 12px">Tell us more about your quest for the holy grail! <br> Min 200 characters</div>
-      <textarea id="job" name="job" required="true" minlength="200" />
-    </div>
-
-    <div class="input">
-      <label for="recommendations margin-top">What recommendations would you give to future developers?</label>
-      <div class="label-description" style="font-style: italic; font-size: 12px">Tips, resources, best practices, dos & don't! <br> Min 100 characters</div>
-      <textarea id="recommendations" name="recommendations" required="true" minlength="100" />
-    </div>
-
-  <div class="toggle-consent">
-    <XToggle @theme='light' @value={{this.yesContact}} @onToggle={{action (mut this.yesContact)}} />
-    <div class="consent-statement">I agree/disagree to share my social media's contact on the testimony</div>
-  </div>
-
-    {{#if this.yesContact}}
-      <label for="social-media">Social media</label>
-      <Input name="social-media" placeholder="Linkedin, Twitter, Github, etc."></Input>
-    {{/if}}
+      <div class="input">
+        <label for="recommendations margin-top">What recommendations would you give to future developers?</label>
+        <div class="label-description" style="font-style: italic; font-size: 12px">Tips, resources, best practices, dos & don't! <br> Min 100 characters</div>
+        <textarea id="recommendations" name="recommendations" required="true" minlength="100" />
+      </div>
 
     <div class="toggle-consent">
-      <XToggle @theme='light' @value={{this.emailConsent}} @onToggle={{action (mut this.emailConsent)}} />
-      <div class="consent-statement">I consent to be contacted by the admin via email</div>
+      <XToggle @theme='light' @value={{this.yesContact}} @onToggle={{action (mut this.yesContact)}} />
+      <div class="consent-statement">I agree/disagree to share my social media's contact on the testimony</div>
     </div>
 
-    {{#if this.emailConsent}}
-      <button class="btn-contact">Submit</button>
-    {{else}}
-      <button class="btn-contact-disabled" disabled="disabled">Submit</button>
-    {{/if}}
-    </div>
+      {{#if this.yesContact}}
+        <label for="social-media">Social media</label>
+        <Input name="social-media" placeholder="Linkedin, Twitter, Github, etc."></Input>
+      {{/if}}
+
+      <div class="toggle-consent">
+        <XToggle @theme='light' @value={{this.emailConsent}} @onToggle={{action (mut this.emailConsent)}} />
+        <div class="consent-statement">I consent to be contacted by the admin via email</div>
+      </div>
+
+      {{#if this.emailConsent}}
+        <button class="btn-contact">Submit</button>
+      {{else}}
+        <button class="btn-contact-disabled" disabled="disabled">Submit</button>
+      {{/if}}
+      </div>
   </form>
+</html>

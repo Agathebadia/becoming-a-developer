@@ -11,14 +11,39 @@
 
 
 /* Utilities */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 body {
   font-family: Open Sans;
-  background-color: black;
   color: white;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+}
+
+html#page-share{
+  background-image: url("../assets/images/white-sky.jpg") ;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4 {
   font-family: Poppins;
+  margin: 0;
+  padding: 0;
 }
 
 a {
