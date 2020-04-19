@@ -4,29 +4,29 @@
     "type": "stories",
     "id": "1",
     "attributes": {
-        "author": "Bob",
-        "year": "2015",
+        "author": "Norman",
+        "year": "2008",
         "image": "assets/images/men-camera-round.jpg",
         "testimony": [
           {
             "title": "My background",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I studied applied computer sciences and before that made an apprenticeship in a similar direction. So for me it was always clear that I end up being a programmer."
           },
           {
             "title": "Interest in development",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I got a programming handbook when I was ten. I was always interested computers as a child although nobody in my family or friend circle shared my interest. When my parents finally got me an old, used C64, it came with a ton of floppy discs and a programming handbook. Nothing shaped my future as much as this I think."
           },
           {
             "title": "My studies",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I'm a autodidact so I didn't really follow a path. But I started this apprenticeship which actually allowed me to spend a lot of time for self learning. As a student I spent more time on my own projects and started working as freelancer already. I think that helped me achieving a lot because I came out of studies with working experience."
           },
           {
             "title": "My first developer role",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I don't really remember unfortunately. I only know that it was for a project funded by another university and it involved a lot of Python and XML. I probably found it on one of the job boards we had at the university."
           },
           {
             "title": "My recommendations",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "If you love programming as a hobby, show that passion to everyone and never let the day-to-day work cripple it. You're getting paid for what you love so do what you love."
           }
         ]
       }
@@ -35,29 +35,29 @@
       "type": "stories",
       "id": "2",
       "attributes": {
-        "author": "Sarah",
-        "year": "2010",
-        "image": "assets/images/eyeglasses-round.jpg",
+        "author": "Dieter",
+        "year": "2019",
+        "image": "assets/images/purple-abstract-round.jpg",
         "testimony": [
           {
             "title": "My background",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I have a background in electrical engineering. While I was in my master’s studies I started a music project with friends. I was responsible for website, live streams and social media. I really enjoyed the creative work and so I dropped out of university, took a full-time job in a tapas bar to save money together for a coding bootcamp. Then I moved to Berlin and here I am: D"
           },
           {
             "title": "Interest in development",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I started with WordPress and really enjoyed to create something from scratch. But after a while I felt like I wanted to escape the boundaries of WordPress. So I started to learn the fundamentals (HTML, CSS & JS) with online resources. The web has gone through an evolution so when you start learning it today it can be overwhelming. Also I wanted to go on this journey with other people so I decided to attend a coding bootcamp."
           },
           {
             "title": "My studies",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I started with Udemy and Youtube tutorials. But I really learned to code with Le Wagon Coding Bootcamp. Wes Bos (wesbos.com) has very good JS courses that I took. For people who want to dig deeper in frontend development I can recommend the 'Frontend Handbook': https://frontendmasters.com/books/front-end-handbook/2019/"
           },
           {
             "title": "My first developer role",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "I am currently working as a freelance teaching assistant at Le Wagon and building my portfolio. Due to COVID19 many HR's are on hold so I try to practice and learn on these days. I’m looking to find a full-time frontend dev role in Berlin."
           },
           {
             "title": "My recommendations",
-            "content": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+            "content": "1.In the beginning 'googling' feels like cheating, but it's not! 2.Ask questions! I think better developers a developers who ask more questions and there are no stupid questions. 3.Failing is part of the process. You cannot get around it."
           }
         ]
       }
