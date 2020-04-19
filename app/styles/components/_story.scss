@@ -1,6 +1,11 @@
-article {
+.story {
+  &:last-child {
+    margin-bottom: 6rem;
+  }
     width: 50%;
     margin: 0 auto;
+    box-shadow: 30px 30px 1px $grey-color;
+
   .align-author-img {
     margin-top: 4rem;
     display: flex;
@@ -22,17 +27,17 @@ article {
         width: 80px;
     }
   }
-    .testimony {
-      color: $brown-color;
-      padding: 2.5rem 1rem 1rem 1rem;
-      background-color: $white-2-color;
+  .testimony {
+    color: $brown-color;
+    padding: 2.5rem 1rem 1rem 1rem;
+    background-color: $white-2-color;
 
-            .sub-header {
-              font-weight: bold;
-              text-shadow: none;
-            }
-            .content {
-              text-shadow: none;
-            }
-        }
+    .sub-header {
+      font-weight: bold;
+      text-shadow: none;
       }
+      .content {
+        text-shadow: none;
+    }
+  }
+}
