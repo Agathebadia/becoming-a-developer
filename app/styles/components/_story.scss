@@ -1,33 +1,38 @@
-html {
-  background-image: url('assets/images/white-sky.jpg');
-  article {
-      width: 50%;
-      margin: 0 auto;
-    .align-author-img {
-      margin-top: 4rem;
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 1rem 0 0;
-      max-height: 60px;
-      background-color: $grey-color;
-      .author {
-        padding-bottom: 0;
-          h3 {
-          color: black;
-          text-align: left;
-          padding-left: 1rem;
-          }
-      }
-        img {
-          border-radius: 50%;
-          width: 80px;
-      }
+article {
+    width: 50%;
+    margin: 0 auto;
+  .align-author-img {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 0;
+    max-height: 60px;
+    background-color: $purple-color;
+    .author {
+      padding-bottom: 0;
+        h3 {
+        color: $light-grey-color;
+        text-shadow: 2px 2px 2px #000;
+        text-align: left;
+        padding-left: 1rem;
+        }
     }
-      .testimony p {
-        padding: 2.5rem 1rem 1rem 1rem;
-        background-color: $purple-color;
-        text-shadow: none;
-      }
+      img {
+        border-radius: 50%;
+        width: 80px;
+    }
   }
+    .testimony {
+      color: $brown-color;
+      padding: 2.5rem 1rem 1rem 1rem;
+      background-color: $white-2-color;
 
-}
+            .sub-header {
+              font-weight: bold;
+              text-shadow: none;
+            }
+            .content {
+              text-shadow: none;
+            }
+        }
+      }

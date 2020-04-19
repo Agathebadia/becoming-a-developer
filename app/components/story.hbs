@@ -6,6 +6,11 @@
       <Story::Image src={{@story.image}} alt="Profile picture of {{@story.author}}" />
   </div>
   <div class="testimony">
-    <p>{{@story.testimony}}</p>
+    <ul>
+      {{#each @story.testimony as |testimony|}}
+        <p class="sub-header">{{testimony.title}}</p>
+        <p class="content">{{testimony.content}}</p>
+      {{/each}}
+    </ul>
   </div>
 </article>

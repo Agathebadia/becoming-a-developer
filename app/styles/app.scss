@@ -32,7 +32,7 @@ body {
   height: 100%;
 }
 
-html#page-share{
+html#page-share {
   background-image: url("../assets/images/white-sky.jpg") ;
   background-size: cover;
   font-family: Open Sans;
@@ -41,8 +41,8 @@ html#page-share{
   min-height: 100%;
 }
 
-html#page-stories{
-  background-image: url("../assets/images/white-sky.jpg") ;
+html#page-stories {
+  background-color: $grey-color;
   background-size: cover;
   font-family: Open Sans;
   margin: 0;
