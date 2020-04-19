@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "type": "stories",
+      "id": "1",
+      "attributes": {
+        "author": "Bob",
+        "year": "2015",
+        "image": "assets/images/men-camera-round.jpg",
+        "testimony": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+      }
+    },
+    {
+      "type": "stories",
+      "id": "2",
+     "attributes": {
+      "author": "Sarah",
+      "year": "2010",
+      "image": "assets/images/eyeglasses-round.jpg",
+      "testimony": "f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf"
+      }
+    }
+  ]
+}

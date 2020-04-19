@@ -1,9 +1,9 @@
-<h1>{{@model.author}}</h1>
-
-<div class="stories">
-  <ul class="results">
-    <li><Story @story={{@model}} /></li>
-    <li><Story @story={{@model}} /></li>
-    <li><Story @story={{@model}} /></li>
-  </ul>
-</div>
+<html id="page-stories">
+  <div class="stories">
+    <ul class="results">
+      {{#each @model as |story|}}
+      <li><Story @story={{story}} /></li>
+      {{/each}}
+    </ul>
+  </div>
+</html>

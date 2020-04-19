@@ -2,11 +2,13 @@ import Route from '@ember/routing/route';
 
 export default class StoriesRoute extends Route {
   async model() {
-    return {
-      author: 'Bob',
-      year: '2015',
-      testimony: 'f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds  dfkjds f  fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf  dfgd bfds fdjs fdj fgzudbf dsjf dsfb d f ds dfkjds f fdhf df d fdhbfdhsufgdshjf b fhdis f fdjs fd f jd fhdsgf dbf df dbfud fhdsb fhds fd f ds fdusbf dusf dsf',
-      image: '',
-    };
+    let response = await fetch('/api/stories.json');
+    let { data } = await response.json();
+
+    return data.map(model => {
+      let { attributes } = model;
+      let type;
+      return { type, ...attributes };
+    });
   }
 }

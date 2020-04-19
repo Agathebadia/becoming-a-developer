@@ -1,10 +1,11 @@
 <article class="story">
-  <div class="author">
-    <h3>{{@story.author}}, Developer since {{@story.year}}</h3>
-    <Story::Image src={{@story.image}} alt="Profile picture of {{@story.author}}" />
+  <div class="align-author-img">
+    <div class="author">
+      <h3>{{@story.author}}, Developer since {{@story.year}}</h3>
+      </div>
+      <Story::Image src={{@story.image}} alt="Profile picture of {{@story.author}}" />
   </div>
   <div class="testimony">
     <p>{{@story.testimony}}</p>
-    <br>
   </div>
 </article>
