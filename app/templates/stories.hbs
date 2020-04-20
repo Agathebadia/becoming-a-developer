@@ -1,9 +1,24 @@
 <html id="page-stories">
-  <div class="stories">
-    <ul class="results">
-      {{#each @model as |story|}}
-      <li><Story @story={{story}} /></li>
-      {{/each}}
-    </ul>
-  </div>
+
+  <nav></nav>
+
+  <label for="order">Order by</label>
+  <select name="Order by" id="sort">
+    <option value="Most recent publication">Most recent publications</option>
+    <option value="Oldest publication">Oldest publications</option>
+    <option value="Name">Developers' name ASC</option>
+    <option value="Developer since asc">Developers since ASC</option>
+    <option value="Developer since desc">Developers since DESC</option>
+  </select>
+
+    {{#sortable-table data=@model as |table|}}
+      <div class="stories">
+        <ul class="results">
+          {{log table}}
+          {{#each @model as |story|}}
+          <li><Story @story={{story}} /></li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/sortable-table}}
 </html>

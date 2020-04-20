@@ -6,8 +6,7 @@ export default class StoriesRoute extends Route {
     let { data } = await response.json();
 
     return data.map(model => {
-      let { attributes } = model;
-      let type;
+      let { attributes, type } = model;
       return { type, ...attributes };
     });
   }
