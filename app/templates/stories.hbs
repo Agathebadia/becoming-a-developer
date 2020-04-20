@@ -3,12 +3,12 @@
   <nav></nav>
 
   <label for="order">Order by</label>
-  <select name="Order by" id="sort">
-    <option value="Most recent publication">Most recent publications</option>
-    <option value="Oldest publication">Oldest publications</option>
-    <option value="Name">Developers' name ASC</option>
-    <option value="Developer since asc">Developers since ASC</option>
-    <option value="Developer since desc">Developers since DESC</option>
+  <select name="Order by" id="list" onchange="getSelectedValue();">
+    <option value="recent">Most recent publications</option>
+    <option value="oldest">Oldest publications</option>
+    <option value="name">Developers' name ASC</option>
+    <option value="year asc">Developers since ASC</option>
+    <option value="year desc">Developers since DESC</option>
   </select>
 
     {{#sortable-table data=@model as |table|}}
@@ -22,3 +22,11 @@
       </div>
     {{/sortable-table}}
 </html>
+
+<script>
+  function getSelectedValue() {
+      const selectedValue = document.getElementById('list').value;
+      console.log(selectedValue);
+    }
+    getSelectedValue();
+</script>
