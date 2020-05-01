@@ -1,0 +1,20 @@
+<nav>
+  <div class="nav-header">
+    <div class="nav-header__home">
+      <LinkTo @route="home"><h2>Home</h2></LinkTo>
+    </div>
+    <div class="nav-header__share">
+      <LinkTo @route="share"><h2>Share your story</h2></LinkTo>
+    </div>
+  </div>
+  <div class="order-by">
+    <label for="order">Order by</label>
+    <select name="Order by" id="list" onchange="getSelectedValue();">
+      <option value="recent">Most recent publications</option>
+      <option value="oldest">Oldest publications</option>
+      <option value="name">Developers' name ASC</option>
+      <option value="year asc">Developers since ASC</option>
+      <option value="year desc">Developers since DESC</option>
+    </select>
+  </div>
+</nav>

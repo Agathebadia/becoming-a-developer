@@ -1,14 +1,6 @@
-<nav></nav>
+<NavBar />
 
 <html id="page-stories">
-  <label for="order">Order by</label>
-  <select name="Order by" id="list" onchange="getSelectedValue();">
-    <option value="recent">Most recent publications</option>
-    <option value="oldest">Oldest publications</option>
-    <option value="name">Developers' name ASC</option>
-    <option value="year asc">Developers since ASC</option>
-    <option value="year desc">Developers since DESC</option>
-  </select>
 
     {{#sortable-table data=@model as |table|}}
       <div class="stories">

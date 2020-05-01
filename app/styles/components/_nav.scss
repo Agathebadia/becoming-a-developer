@@ -1,5 +1,36 @@
 nav {
-  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: $purple-color;
   height: 4rem;
-  color: black;
+  .nav-header {
+    display: flex;
+    color: $light-grey-color;
+    width: 70%;
+    justify-content: space-between;
+    &__home {
+      margin-left: 20px;
+      a {
+        text-decoration: none;
+        color: $light-grey-color;
+      }
+    }
+    &__share a {
+      text-decoration: none;
+      color: $light-grey-color;
+    }
+    a:hover {
+      color: $white-2-color;
+      transition: ease-in 0.8;
+    }
+  }
+  .order-by {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 20px;
+    label {
+      margin-right: 1rem;
+    }
+  }
 }
