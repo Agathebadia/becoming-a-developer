@@ -1,0 +1,10 @@
+<div class="order-by">
+  <label for="order">Order by</label>
+  <select name="Order by" id="list" {{ on 'change' this.changeSorting}}>
+    <option value="oldest">Oldest publications</option>
+    <option value="recent">Most recent publications</option>
+    <option value="name">Developers' name</option>
+    <option value="year asc">Seniors first</option>
+    <option value="year desc">Juniors first</option>
+  </select>
+</div>
