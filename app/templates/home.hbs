@@ -5,8 +5,15 @@
     <div class="container-banner">
       <h1>Becoming a developer</h1>
       <p id="banner-p">What's your story?</p>
-      <LinkTo class="btn btn-contact" id="share-btn"
-        @route="share">SHARE!</LinkTo>
+      <div class="banner-buttons">
+        <LinkTo
+        class="btn btn-contact" id="share-btn" @route="share">
+          Write a post
+          </LinkTo>
+        <LinkTo class="btn btn-stories" id="share-btn" @route="stories">
+          Stories
+        </LinkTo>
+      </div>
     </div>
   </div>
   <!-- code a "How it works" section -->
