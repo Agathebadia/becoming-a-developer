@@ -41,8 +41,12 @@
         margin-right: 1%;
         color: $brown-color;
         text-decoration: none;
+        overflow: hidden;
          &:hover {
           color: $purple-color;
+        }
+        &::-webkit-scrollbar {
+          overflow: hidden;
         }
       }
     }

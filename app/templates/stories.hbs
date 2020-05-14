@@ -2,13 +2,14 @@
 
 <html id="page-stories">
 
-    {{#sortable-table data=@model as |table|}}
       <div class="stories">
         <ul class="results">
-          {{#each @model as |story|}}
-          <li><Story @story={{story}} /></li>
-          {{/each}}
+          <InfiniteScroller @onLoadMore={{this.loadMore}} as |scroller|>
+            {{#each @model as |story|}}
+              <li><Story @story={{story}} /></li>
+            {{/each}}
+            {{if scroller.isLoading "Please wait..."}}
+          </InfiniteScroller>
         </ul>
       </div>
-    {{/sortable-table}}
 </html>
