@@ -6,12 +6,7 @@
     "attributes": {
         "author": "Norman",
         "year": "2008",
-        "website": "test",
         "github": "https://github.com/nkoehring",
-        "linkedin": "test",
-        "twitter": "test",
-        "instagram": "test",
-        "facebook": "test",
         "image": "assets/images/men-camera-round.jpg",
         "testimony": [
           {
@@ -44,7 +39,7 @@
         "author": "Dieter",
         "year": "2019",
         "linkedin": "https://www.linkedin.com/in/dieter-pankratz/",
-        "image": "assets/images/purple-abstract-round.jpg",
+        "image": "assets/images/dieter-pankratz.png",
         "testimony": [
           {
             "title": "My background",
@@ -75,7 +70,7 @@
       "attributes": {
         "author": "Florentin",
         "year": "2017",
-        "image": "assets/images/purple-abstract-round.jpg",
+        "image": "assets/images/purple-flower-round.jpg",
         "testimony": [
           {
             "title": "My background",
@@ -106,7 +101,7 @@
       "attributes": {
         "author": "Mailys",
         "year": "2010",
-        "image": "assets/images/purple-abstract-round.jpg",
+        "image": "assets/images/splatter-round.jpg",
         "testimony": [
           {
             "title": "My background",
