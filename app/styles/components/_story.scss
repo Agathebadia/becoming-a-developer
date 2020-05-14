@@ -1,4 +1,7 @@
 .story {
+  &:first-child {
+    margin-top: 7rem;
+  }
   &:last-child {
     margin-bottom: 6rem;
   }
@@ -7,7 +10,6 @@
     box-shadow: 30px 30px 1px $grey-color;
 
   .align-author-img {
-    margin-top: 4rem;
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem 0 0;
