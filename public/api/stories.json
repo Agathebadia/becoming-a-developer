@@ -7,7 +7,7 @@
         "author": "Norman",
         "year": "2008",
         "github": "https://github.com/nkoehring",
-        "image": "assets/images/men-camera-round.jpg",
+        "image": "men-camera-round.jpg",
         "testimony": [
           {
             "title": "My background",
@@ -39,7 +39,7 @@
         "author": "Dieter",
         "year": "2019",
         "linkedin": "https://www.linkedin.com/in/dieter-pankratz/",
-        "image": "assets/images/dieter-pankratz.png",
+        "image": "dieter-pankratz.png",
         "testimony": [
           {
             "title": "My background",
@@ -70,7 +70,7 @@
       "attributes": {
         "author": "Florentin",
         "year": "2017",
-        "image": "assets/images/purple-flower-round.jpg",
+        "image": "purple-flower-round.jpg",
         "testimony": [
           {
             "title": "My background",
@@ -101,7 +101,7 @@
       "attributes": {
         "author": "Mailys",
         "year": "2010",
-        "image": "assets/images/splatter-round.jpg",
+        "image": "splatter-round.jpg",
         "testimony": [
           {
             "title": "My background",
