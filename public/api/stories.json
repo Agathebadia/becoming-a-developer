@@ -6,7 +6,12 @@
     "attributes": {
         "author": "Norman",
         "year": "2008",
+        "website": "test",
         "github": "https://github.com/nkoehring",
+        "linkedin": "test",
+        "twitter": "test",
+        "instagram": "test",
+        "facebook": "test",
         "image": "assets/images/men-camera-round.jpg",
         "testimony": [
           {

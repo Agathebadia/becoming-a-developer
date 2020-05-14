@@ -29,8 +29,21 @@
   }
   .testimony {
     color: $brown-color;
-    padding: 2.5rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: $white-2-color;
+
+    .author-social-links {
+      margin-bottom: 1rem;
+      a {
+        font-size: 20px;
+        margin-right: 1%;
+        color: $brown-color;
+        text-decoration: none;
+         &:hover {
+          color: $purple-color;
+        }
+      }
+    }
 
     .sub-header {
       font-weight: bold;
