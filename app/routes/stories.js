@@ -33,6 +33,5 @@ export default class StoriesRoute extends Route {
       default:
         return data.map(mapper)
     }
-
   }
 }

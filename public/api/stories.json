@@ -6,6 +6,7 @@
     "attributes": {
         "author": "Norman",
         "year": "2008",
+        "github": "https://github.com/nkoehring",
         "image": "assets/images/men-camera-round.jpg",
         "testimony": [
           {
@@ -37,6 +38,7 @@
       "attributes": {
         "author": "Dieter",
         "year": "2019",
+        "linkedin": "https://www.linkedin.com/in/dieter-pankratz/",
         "image": "assets/images/purple-abstract-round.jpg",
         "testimony": [
           {
@@ -58,6 +60,68 @@
           {
             "title": "My recommendations",
             "content": "1.In the beginning 'googling' feels like cheating, but it's not! 2.Ask questions! I think better developers a developers who ask more questions and there are no stupid questions. 3.Failing is part of the process. You cannot get around it."
+          }
+        ]
+      }
+    },
+    {
+      "type": "stories",
+      "id": "3",
+      "attributes": {
+        "author": "Florentin",
+        "year": "2017",
+        "image": "assets/images/purple-abstract-round.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I had a scientific baccalaureate, and a two-year degree in Computer Science (Digital system with computer and network option) (SNIR)"
+          },
+          {
+            "title": "Interest in development",
+            "content": "I gained interest when I started learning and coding apps. At that time I was coding in Android and Java."
+          },
+          {
+            "title": "My studies",
+            "content": "I started after my A level (baccalaureate) with a two-year degree in Digital System and Network. I am at the moment a Computer Science student. I'm not sure yet what path to choose, because I'm getting more amd more interested in coding video games!"
+          },
+          {
+            "title": "My first developer role",
+            "content": "My first job was an internship as a Web Developer. It helped me a lot to figure out the role I really want in the future."
+          },
+          {
+            "title": "My recommendations",
+            "content": "There is a lot of domain possible as a developer. Try them all, maybe you will find the perfect one for you!"
+          }
+        ]
+      }
+    },
+    {
+      "type": "stories",
+      "id": "4",
+      "attributes": {
+        "author": "Mailys",
+        "year": "2010",
+        "image": "assets/images/purple-abstract-round.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I directly chose to study programming after high school!"
+          },
+          {
+            "title": "Interest in development",
+            "content": "My love and skills for mathematics and logic in high school made me choose a science cursus. My parents also supported me to take this path because of the big demand in developers in France (and worldwide, developers are wanted like rockstars!)."
+          },
+          {
+            "title": "My studies",
+            "content": "I did a two year degree in Network and Telecommunication, then a Bachelor, and finally a Master in Architecture, Software & Web Engineering."
+          },
+          {
+            "title": "My first developer role",
+            "content": "Thanks to an internship during my Master, I met colleagues who were working for different software companies (the beginning of my career network). That's how I had a referral by a colleague, to the company I joined."
+          },
+          {
+            "title": "My recommendations",
+            "content": "Please, follow the EGOLESS programming principles: Always stay humble and don't blame other devs. Don't be ashamed about asking questions (especially when you're a beginner). Thank and quote your colleagues if they have been part of the work. Don't rest on your laurels. Be curious, try new technologies, don't be trapped in a technology for too long."
           }
         ]
       }

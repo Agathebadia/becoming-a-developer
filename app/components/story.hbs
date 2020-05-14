@@ -6,6 +6,26 @@
       <Story::Image src={{@story.image}} alt="Profile picture of {{@story.author}}" />
   </div>
   <div class="testimony">
+    <div class="social-links">
+      {{#if @story.website}}
+      <a href={{@story.website}} target="_blank" class="fa fa-globe company-profile-sm-icon"></a>
+      {{/if}}
+      {{#if @story.linkedin}}
+      <a href={{@story.linkedin}} target="_blank" class="fa fa-linkedin company-profile-sm-icon"></a>
+      {{/if}}
+      {{#if @story.github}}
+      <a href={{@story.github}} target="_blank" class="fa fa-github company-profile-sm-icon"></a>
+      {{/if}}
+      {{#if @story.twitter}}
+      <a href={{@story.twitter}} target="_blank" class="fa fa-twitter company-profile-sm-icon"></a>
+      {{/if}}
+      {{#if @story.instagram}}
+      <a href={{@story.instagram}} target="_blank" class="fa fa-instagram company-profile-sm-icon"></a>
+      {{/if}}
+      {{#if @story.facebook}}
+      <a href={{@story.facebook}} target="_blank" class="fa fa-facebook company-profile-sm-icon"></a>
+      {{/if}}
+    </div>
     <ul>
       {{#each @story.testimony as |testimony|}}
         <p class="sub-header">{{testimony.title}}</p>
