@@ -125,6 +125,37 @@
           }
         ]
       }
+    },
+    {
+      "type": "stories",
+      "id": "5",
+      "attributes": {
+        "author": "Sean",
+        "year": "2011",
+        "image": "seanb.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "Computer science student. Initially I wanted to study architecture in college but the admission program required a portfolio that year for the first time in the history of the program. I didn't have one, so I became a CS major instead. I grew up building skate ramps which require money for lumber. So the idea of building something digital without having to buy materials was exciting to me."
+          },
+          {
+            "title": "Interest in development",
+            "content": "My family got AOL in like 1998 and a friend of mine was making dumb little webpages about Austin Powers on Angelfire. It was amusing so I asked him how he made it and he said: Do you know HTML? And I thought he meant Hotmail, which I think is incorrect. It was really just a way for me to publish some dumb ideas I had as a kid."
+          },
+          {
+            "title": "My studies",
+            "content": "I used search engines to find resources on how to build stuff I didn't know how to do. Lotsa copying and pasting and then tweaking. This is back in the days when the <table> tag was used for layouts so the bar was very low. Styling was also done via html tag attributes and all markup was in caps. If Javascript was in the picture, it was to do something annoying like making snowflakes fall down the screen or for a button to avoid the cursor when you got near it, haha. Sad. I learned database architecture and advanced scripting in college."
+          },
+          {
+            "title": "My first developer role",
+            "content": "My uncle was getting press for his work with cardiology students that he instructed to use iPods to repeatedly listen to heart murmurs in order to memorize them; something called cardiac auscultation in the medical field. The technique even had a write up in Time Magazine. Being my uncle and all, he's been supportive of me for a long time, so he hired me one summer in college to build a Windows desktop application to quiz the med students by playing a heart murmur, asking them to identify it, and then grading them. I got paid with a new iPod. I wrote it in VB.NET while sitting at my parent's kitchen counter in Summer 2006. After college, I got my first job through a recruiter, in a junior database administrator role."
+          },
+          {
+            "title": "My recommendations",
+            "content": "There are so many good resources around now that I wish I had when I was learning. Like YouTube. Dan Shiffman (The Coding Train) is amazing for creative coding tutorials. Talks tend to be way more digestible for me than reading, and they can turn you onto new topics. Most conferences publish the talks afterwards so this is the cheap and flexible way to do it. Build something on your own that's not a part of your work duties. There are a ton of tasks that you will never do in the course of day to day work but are crucial to understanding what you're working with. Like building a complex application from scratch. Lastly, have a healthy amount of skepticism. Don't assume your colleagues necessarily know the best way. It will seem like that starting out but no one knows it all, so double check stuff, and you'll learn a lot this way too. If you're having a hard time, it's okay to identify and dwell on what you don't like about something. In turn, it's helped me identify what I actually do like. Oh, and get into automated testing as early as possible, lol."
+          }
+        ]
+      }
     }
   ]
 }

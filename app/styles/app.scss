@@ -20,7 +20,6 @@
 html {
   margin: 0;
   padding: 0;
-  // overflow: hidden;
   overflow-y: scroll;
 }
 
@@ -35,7 +34,7 @@ body {
 html#page-share {
   background-image: url("../assets/images/white-sky.jpg") ;
   background-size: cover;
-   width: calc(101%);
+  width: calc(101%);
   font-family: Open Sans;
   margin: 0;
   padding: 0;
@@ -43,7 +42,8 @@ html#page-share {
 }
 
 html#page-stories {
-  background-color: #a496e3;
+  background: rgb(164,150,227);
+  background: linear-gradient(180deg, rgba(164,150,227,1) 49%, rgba(187,113,187,1) 100%);
   background-size: cover;
   width: calc(101%);
   font-family: Open Sans;

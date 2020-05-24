@@ -6,9 +6,9 @@ let mapper = (model) => {
 }
 
 let sortById = (prev, next) => prev.id < next.id ? 1 : -1
-let sortByName = (a,b) => a.author < b.author ? 1 : -1
-let sortByYearAsc = (prev, next) => prev.year > next.year ? -1 : 1
-let sortByYearDesc = (prev, next) => prev.year < next.year ? 1 : -1
+let sortByName = (a, b) => a.attributes.author < b.attributes.author ? -1 : 1
+let sortByYearAsc = (prev, next) => prev.attributes.year < next.attributes.year ? -1 : 1
+let sortByYearDesc = (prev, next) => prev.attributes.year < next.attributes.year ? 1 : -1
 
 export default class StoriesRoute extends Route {
   queryParams = {
