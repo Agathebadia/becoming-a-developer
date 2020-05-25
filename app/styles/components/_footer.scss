@@ -1,15 +1,14 @@
 footer {
-  background-color: $white-2-color;
+  background-color: $purple-color;
   text-align: center;
   padding: 10px;
-}
-.links > a {
+  a {
   font-size: 25px;
   text-decoration: none;
   margin: 10px;
-  color: $brown-color;
-}
-
-.links > a:hover {
-  color: $brown-2-color;
+  color: $light-grey-color;
+    &:hover {
+      color: $white;
+    }
+  }
 }
