@@ -156,6 +156,41 @@
           }
         ]
       }
+    },
+    {
+      "type": "stories",
+      "id": "6",
+      "attributes": {
+        "author": "Agathe",
+        "year": "2019",
+        "website": "https://agathebadia.github.io/",
+        "linkedin": "https://www.linkedin.com/in/agathe-badia/",
+        "github": "https://github.com/Agathebadia",
+        "twitter": "https://twitter.com/Agathe_BADIA",
+        "image": "agatheb.png",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "As many students, I wasn't sure about the path to take, so I followed the studies I was interested in, and discover what the work place has to offer later on :) My studies were mainly focused on Management and Economics. I have a two year vocational degree in International Trade, a Bachelor in Economics and a Master in Management & Entrepreneurship. Then I started as a Tech Recruiter and gained three years of experience in this domain."
+          },
+          {
+            "title": "Interest in development",
+            "content": "As a Tech Recruiter, there were a lot of things I did not know. I started to gather information about programming languages and frameworks, in order to be more comfortable during interviews, and know the basics while talking to devs. Later on I got curious about more and more tech concepts. Each time I was digging in one topic, it would open several drawers at the same time. It was a never ending source of learning! It was fascinating :) I slowly became the tech savvy of the recruiter team and even created a 6-hour online course for the company, providing a broad software development introduction to non tech people. This interest led me to try out different coding workshop for beginners and one day, I got this great opportunity to switch to development and go through a coding bootcamp, with the support of my employer!"
+          },
+          {
+            "title": "My studies",
+            "content": "I went through a Coding Bootcamp at LeWagon, and learned Ruby, Ruby on Rails, JavaScript, HTML5/CSS3, Bootstrap, SQL, but also the basics for Heroku deployment, Git Commands, Github & Figma. After this bootcamp, I also started to learn Ember.js which is used in our team."
+          },
+          {
+            "title": "My first developer role",
+            "content": "I have the amazing chance to have my first dev role at my current employer, so I started (again!) as a Junior Developer, with a focus on Frontend. I was really interested in visuals and design, and had a lot of fun creating my portfolio but also this project! I am the developer behind 'Becoming a developer' :P I also started to learn Ember, which the current frontend framework we use there, and work on different things to get comfortable with the codebase: bug ticket, sprint tickets, switching teams and focus on other parts of the product. I got to work with a lot of different developers and became more comfortable with the workflow and the "
+          },
+          {
+            "title": "My recommendations",
+            "content": "The first thing I realized when I started as a dev, is that you can get excited to learn ALL THE THING. Don't do that, please! Take the time to prioritize the topics you want to dig in, but don't overload your brain with too many things. Learning takes time, so do yourself a favor and do it one step at a time :) Another thing that might be quite frustrating is that you will get stuck often when you work, and that's totally normal! You can't always get everything right from the first try (even as a senior dev!). Give yourself time to understand from your errors and make sure to have a mentor/manager by your side to help you! Finally, pair programming is something that helps me a lot! It's great to have the opportunity to practice without the frustration of being stuck and on your own. Plus the benefit of having an experienced developer leading you on the right path while you code."
+          }
+        ]
+      }
     }
   ]
 }

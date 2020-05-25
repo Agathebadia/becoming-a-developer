@@ -31,7 +31,7 @@
   }
   .testimony {
     color: $brown-color;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1.5rem 1rem 1rem;
     background-color: $white-2-color;
 
     .author-social-links {
@@ -57,6 +57,8 @@
       }
       .content {
         text-shadow: none;
+        line-height: normal;
+        text-align: justify;
     }
   }
 }
