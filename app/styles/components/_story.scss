@@ -7,14 +7,14 @@
   }
     width: 50%;
     margin: 0 auto;
-    box-shadow: 30px 30px 1px $grey-color;
+    box-shadow: 30px 30px 1px $dark-grey-color;
 
   .align-author-img {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem 0 0;
     max-height: 60px;
-    background-color: $purple-color;
+    background-color: $neon-purple-color;
     .author {
       padding-bottom: 0;
         h3 {
@@ -30,20 +30,20 @@
     }
   }
   .testimony {
-    color: $brown-color;
+    color: $light-grey-color;
     padding: 1rem 1.5rem 1rem 1rem;
-    background-color: $white-2-color;
+    background-color: $grey-color;
 
     .author-social-links {
       margin-bottom: 1rem;
       a {
         font-size: 1.5rem;
         margin-right: 1%;
-        color: $brown-color;
+        color: $light-grey-color;
         text-decoration: none;
         overflow: hidden;
          &:hover {
-          color: $purple-color;
+          color: $dark-grey-color;
         }
         &::-webkit-scrollbar {
           overflow: hidden;
@@ -54,6 +54,7 @@
     .sub-header {
       font-weight: bold;
       text-shadow: none;
+      color: $light-grey-color;
       }
       .content {
         text-shadow: none;
