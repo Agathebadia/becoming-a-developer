@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   padding-top: 150px;
-  height: 700px;
   }
 
   .banner h1, h2, p {
@@ -23,6 +22,9 @@
   }
 
   .container-banner {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        display: block;
+    }
     text-align: center;
   }
 
