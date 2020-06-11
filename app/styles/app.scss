@@ -43,7 +43,8 @@ html#page-share {
 
 html#page-stories {
   background: rgb(164,150,227);
-  background: linear-gradient(180deg, rgba(203,78,254,1) 49%, rgba(142, 48, 253, 1) 100%);
+  //background: linear-gradient(180deg, rgba(203,78,254,1) 49%, rgba(142, 48, 253, 1) 100%);
+  background-color: $old-3-pink-color;
   background-size: cover;
   width: calc(101%);
   font-family: Open Sans;
