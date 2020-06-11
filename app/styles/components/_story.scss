@@ -16,6 +16,7 @@
   .align-author-img {
     display: flex;
     justify-content: space-between;
+    border: solid black;
     padding: 1rem 1rem 0 0;
     max-height: 60px;
     background-color: $light-2-grey-color;
@@ -42,6 +43,9 @@
   }
   .testimony {
     color: $light-grey-color;
+    border-right: solid black;
+    border-left: solid black;
+    border-bottom: solid black;
     padding: 1rem 1.5rem 1rem 1rem;
     background-color: $grey-color;
 
