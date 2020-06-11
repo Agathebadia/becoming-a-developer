@@ -42,7 +42,6 @@
         color: $light-grey-color;
         text-decoration: none;
         overflow: hidden;
-        font-display: swap;
          &:hover {
           color: $dark-grey-color;
         }
@@ -63,8 +62,4 @@
         text-align: justify;
     }
   }
-}
-
-@media all and (min-width: 320px) and (max-width: 768px) {
-
 }
