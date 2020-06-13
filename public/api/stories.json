@@ -183,11 +183,45 @@
           },
           {
             "title": "My first developer role",
-            "content": "I have the amazing chance to have my first dev role at my current employer, so I started (again!) as a Junior Developer, with a focus on Frontend. I was really interested in visuals and design, and had a lot of fun creating my portfolio but also this project! I am the developer behind 'Becoming a developer' :P I also started to learn Ember, which the current frontend framework we use there, and work on different things to get comfortable with the codebase: bug ticket, sprint tickets, switching teams and focus on other parts of the product. I got to work with a lot of different developers and became more comfortable with the workflow and the "
+            "content": "I have the amazing chance to have my first dev role at my current employer, so I started (again!) as a Junior Developer, with a focus on Frontend. I was really interested in visuals and design, and had a lot of fun creating my portfolio but also this project! I am the developer behind 'Becoming a developer' :P I also started to learn Ember, which the current frontend framework we use there, and work on different things to get comfortable with the codebase: bug ticket, sprint tickets, switching teams and focus on other parts of the product. I got to work with a lot of different developers and became more comfortable with the workflow and the codebase."
           },
           {
             "title": "My recommendations",
             "content": "The first thing I realized when I started as a dev, is that you can get excited to learn ALL THE THING. Don't do that, please! Take the time to prioritize the topics you want to dig in, but don't overload your brain with too many things. Learning takes time, so do yourself a favor and do it one step at a time :) Another thing that might be quite frustrating is that you will get stuck often when you work, and that's totally normal! You can't always get everything right from the first try (even as a senior dev!). Give yourself time to understand from your errors and make sure to have a mentor/manager by your side to help you! Finally, pair programming is something that helps me a lot! It's great to have the opportunity to practice without the frustration of being stuck and on your own. Plus the benefit of having an experienced developer leading you on the right path while you code."
+          }
+        ]
+      }
+    },
+    {
+      "type": "stories",
+      "id": "7",
+      "attributes": {
+        "author": "Ibrahim",
+        "year": "2017",
+        "website": "https://dev.to/ibrahimshamma99",
+        "linkedin": "https://www.linkedin.com/in/ibrahim-abushamma/",
+        "github": "https://github.com/IbrahimShamma99",
+        "image": "petaled-flowers-round.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I was coding at a very young age but due to cultural reasons I stopped and started preparing for passing high school to study Electrical Engineering. At least that's my family wanted. But as soon as I finished the first year in college I had the highest GPA in my classes and everything looks fine but I was not seeing myself there, so decided to go back to programming learning from the scratch and that was in 2017. I had multiple freelance contracts in 2018, had my first full-time job in 2019 as a Frontend (React) developer while having college at the same time, does that look crazy? It is what I have been doing for a year and a half till now."
+          },
+          {
+            "title": "Interest in development",
+            "content": "I started loving the game of code at a very young age when I saw my uncle who was a developer. What really interests me about software is that when you learn you see results in a matter of months and you just keep building your interest with it."
+          },
+          {
+            "title": "My studies",
+            "content": "Books & documentations. I highly recommend uncle pop collection of Books: Clean code, Clean coder & Clean architecture as well as Dan Abramov blogs. It teaches from the first principles of frontend development, and most importantly by embracing the mentality of learn by doing."
+          },
+          {
+            "title": "My first developer role",
+            "content": "There was a Study Room in a Business Park in Amman, Jordan, where I always go to code and make connections. I ended up knowing the entire park and those connections taught me everything about interviews and Job applications. I was only 19 years old then when the opportunity came. I met a software developer who told his boss about me and we ended up in the same team."
+          },
+          {
+            "title": "My recommendations",
+            "content": "When you learn, focus on one thing at a time. If you don't change directions you will end up where you're heading."
           }
         ]
       }
