@@ -225,6 +225,38 @@
           }
         ]
       }
+    },
+    {
+      "type": "stories",
+      "id": "8",
+      "attributes": {
+        "author": "Nikita",
+        "year": "2018",
+        "linkedin": "https://www.linkedin.com/in/nikita-uans/",
+        "image": "nikita.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "That was a really long journey. I was interested in informatics in school but never thought it could be my profession. I have a degree in civil law and after that in andragogy. My job positions were law consultant and a teacher in the system of further education. Then, back in 2017, I’ve decided that I needed a change."
+          },
+          {
+            "title": "Interest in development",
+            "content": "There were always two reasons – the first one: during my previous job, I was also responsible for creating and maintaining our website. I thought that it would be cool to have deeper knowledge in web development and in programming in general. The second one: IT sphere is one of a few more or less stable spheres in my home country. You can work and not be afraid that you won’t be able to find a new job if something went wrong with your current company. Prosaic but we live in reality and not in a romantic idea of it."
+          },
+          {
+            "title": "My studies",
+            "content": "There were different video courses in the beginning. Then – different books, for me it was Troelsen C# and CLR via C# by Richter (I read it and took detailed notes for every chapter), Code Complete. Books are good, guys, read it! :)"
+          },
+          {
+            "title": "My first developer role",
+            "content": "I have found .NET training course in EPAM. I can’t tell that their teaching system is perfect but it helped me to systematize my knowledge and get my first experience with a real project. After the course, I became a Trainee and soon after I found a new job as a junior developer."
+          },
+          {
+            "title": "My recommendations",
+            "content": "1. Don’t be arrogant 2. Ask questions 3. Use Google 4. Practice more 5. Learn systematically and on a daily basis"
+          }
+        ]
+      }
     }
   ]
 }
