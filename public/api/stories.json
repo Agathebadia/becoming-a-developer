@@ -257,6 +257,38 @@
           }
         ]
       }
+    },
+    {
+      "type": "stories",
+      "id": "9",
+      "attributes": {
+        "author": "Andy",
+        "year": "2016",
+        "twitter": "https://twitter.com/progapandist",
+        "image": "men-camera-round.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I used to be a television news reporter for 13 years in total. My last position on TV was the Chief of European Bureau in Brussels and Paris."
+          },
+          {
+            "title": "Interest in development",
+            "content": "I've been interested in computers and the Internet since the mid-90s, my first paying job was a tech writer at a Russian 'unicorn' startup post-dotcom boom, in the year 2000. The company became known as Yandex and grew to be the largest tech firm in Russia, I was stupid enough to get myself fired when I was 18."
+          },
+          {
+            "title": "My studies",
+            "content": "First, on my own, with the help of books and MOOCs. I definitely recommend Zed Shaw's books ('Learning Python the Hard Way' and others), and CS50 from Harvard to all beginners! Once I grasped the basics, I started looking for the ways to apply my fragile skills. I wanted to become an iOS developer so I read up on Objective-C and Swift and worked on my first note-taking app (while still working as a broadcast journalist). This is where I realized that I lack the big picture of application development. My friend, who has just recently switched from being a copywriter at an ad firm to a developer after graduating from Le Wagon recommended my to apply to LW. I did, and everything finally clicked in my head after 9 weeks of intense web-dev course with Ruby on Rails."
+          },
+          {
+            "title": "My first developer role",
+            "content": "I went TAing, teaching, and doing technical writing right after the bootcamp. Then I slowly used my Le Wagon connections to get commissions for Rails applications — these were my first paid gigs as a developer!"
+          },
+          {
+            "title": "My recommendations",
+            "content": "Never give up, stay curious, and manage complexity. Writing code is much more like literature than like math. If you know how to reason and express your thoughts in a condensed and elegant manner — you already have everything that it takes to become a programmer. You just need to hone those skills and constantly expand your erudition."
+          }
+        ]
+      }
     }
   ]
 }
