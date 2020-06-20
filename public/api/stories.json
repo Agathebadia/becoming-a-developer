@@ -2,7 +2,7 @@
   "data": [
   {
     "type": "stories",
-    "id": "1",
+    "id": 1,
     "attributes": {
         "author": "Norman",
         "year": "2008",
@@ -34,7 +34,7 @@
     },
     {
       "type": "stories",
-      "id": "2",
+      "id": 2,
       "attributes": {
         "author": "Dieter",
         "year": "2019",
@@ -66,7 +66,7 @@
     },
     {
       "type": "stories",
-      "id": "3",
+      "id": 3,
       "attributes": {
         "author": "Florentin",
         "year": "2017",
@@ -97,7 +97,7 @@
     },
     {
       "type": "stories",
-      "id": "4",
+      "id": 4,
       "attributes": {
         "author": "Mailys",
         "year": "2010",
@@ -128,7 +128,7 @@
     },
     {
       "type": "stories",
-      "id": "5",
+      "id": 5,
       "attributes": {
         "author": "Sean",
         "year": "2011",
@@ -159,7 +159,7 @@
     },
     {
       "type": "stories",
-      "id": "6",
+      "id": 6,
       "attributes": {
         "author": "Agathe",
         "year": "2019",
@@ -194,7 +194,7 @@
     },
     {
       "type": "stories",
-      "id": "7",
+      "id": 7,
       "attributes": {
         "author": "Ibrahim",
         "year": "2017",
@@ -228,7 +228,7 @@
     },
     {
       "type": "stories",
-      "id": "8",
+      "id": 8,
       "attributes": {
         "author": "Nikita",
         "year": "2018",
@@ -260,7 +260,7 @@
     },
     {
       "type": "stories",
-      "id": "9",
+      "id": 9,
       "attributes": {
         "author": "Andy",
         "year": "2016",
@@ -286,6 +286,38 @@
           {
             "title": "My recommendations",
             "content": "Never give up, stay curious, and manage complexity. Writing code is much more like literature than like math. If you know how to reason and express your thoughts in a condensed and elegant manner — you already have everything that it takes to become a programmer. You just need to hone those skills and constantly expand your erudition."
+          }
+        ]
+      }
+    },
+    {
+      "type": "stories",
+      "id": 10,
+      "attributes": {
+        "author": "Anthony",
+        "year": "2019",
+        "linkedin": "https://www.linkedin.com/in/anthonybandolon/",
+        "image": "anthonyb.png",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I spent my previous life in Hotel and Travel management. For 7 years, I did Front Office Management (Reception, Valet, Bell Service, Reservations). Then moved into the Travel Agency world and did Inbound Sales Management for 3 years. During that same time, I owned and operated my own Travel Agency."
+          },
+          {
+            "title": "Interest in development",
+            "content": "I've always wanted to build a website and played around with various WYSIWYG editors. When I started my travel agency, I signed up for a Website Template service (like WIX or SquareSpace but specifically to build Travel Agency Sites) and was frustrated as how limiting that was. However, since I didn't know any better, I went with it. That's when I really started digging deeper into how to program websites."
+          },
+          {
+            "title": "My studies",
+            "content": "The first real 'learning to code' I did was getting the Head First - HTML CSS book to understand what it did. It felt really daunting to read since I thought that every single website ever was hand coded directly in HTML and CSS. But, that did spark the interest to learn more since logically, that could never be the case. Fast-forward almost a decade, I had a great opportunity to do a coding Bootcamp with Le Wagon. I had been looking into Bootcamps for years, but the cost was always too much (in the US) and I didn't have the time to dedicate to it - all bootcamps were full time, 10 hour days. Last year, I not only had the time, but the price was well within my budget to join Le Wagon so I took the chance and ran with it."
+          },
+          {
+            "title": "My first developer role",
+            "content": "Right after the bootcamp, I started with Le Wagon as a Teaching Assistant helping others learn while I was looking for a brand new start in this field. I spent a lot of time working and re-working my resume over and over, using each rejection email to ask for feedback about my resume. Many didn't respond, but those that did I used their input for the next iteration. I guess in a way, it's a real life version of Test Driven Development? After a while I finally found a company that was a good fit for my knowledge level and had immense potential for learning and growth."
+          },
+          {
+            "title": "My recommendations",
+            "content": "First thing - always ask for feedback and act upon it. There's no other real way to find out what you need to do in order to increase your chances of being hired if you don't. Sure, many won't respond to your polite request, but the ones that do - generally - will give you some good insight into where to focus your energies next. Second - Always keep learning and updating. Go back to old projects, add a new feature, update the ReadMe file, find a new way to refactor, learn a new framework or language all together. I found that if I didn't write any code for more than one week, I'd have to look up the basics all over again. Hopefully your memory is a lot better than mine, but keep the knowledge fresh and updated."
           }
         ]
       }
