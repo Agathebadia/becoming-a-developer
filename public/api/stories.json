@@ -321,6 +321,41 @@
           }
         ]
       }
+    },
+    {
+      "type": "stories",
+      "id": 11,
+      "attributes": {
+        "author": "Matthew",
+        "year": "2020",
+        "website": "https://www.roderickdevelopers.com/",
+        "linkedin": "https://www.linkedin.com/in/roderickdevelopers/",
+        "github": "https://github.com/roderickdevelopers/",
+        "twitter": "https://twitter.com/Roderickdev",
+        "image": "matthew_r.jpg",
+        "testimony": [
+          {
+            "title": "My background",
+            "content": "I started probably about ten years ago, making my app for android, and it was just a simple theme app. Before I started with any kind of Web Development, I had worked in a warehouse as a Receiving Coordinator. It was only a '9-5' and as much hard work as I had done for the company, they did not seem to care or reward any kind of hard work. And they had no interest in listening. I could not see myself doing this year after year!"
+          },
+          {
+            "title": "Interest in development",
+            "content": "My brother had started his website with Ember.js and mentioned it to me, and because he had known, I dabbled a little with Android development he thought maybe I would be interested. I haven't looked back since!"
+          },
+          {
+            "title": "My studies",
+            "content": "I started by taking freeCodeCamp courses and got my Responsive Web Design Certificate! And by the end of the month will have my JavaScript Algorithms and Data Structures Certificate! I worked on my Portfolio for quite a bit and still work on it now, that has helped me learn by actually doing some coding."
+          },
+          {
+            "title": "My first developer role",
+            "content": "I haven't gotten any type of developer role yet, but, I have been working on my portfolio and contribute to the Ember Times and writing issues for them when I can. I also have done some contributing with The Ember Learning Team, which dramatically helps my skills in working with a team and GitHub."
+          },
+          {
+            "title": "My recommendations",
+            "content": "Do not give up! It will get hard, and it will be frustrating at times, but do not give up! Also, if you are stuck on something for a bit and cannot seem to figure it out, walk away for a bit. I also think contributing to an open-source project helps, especially with learning GitHub."
+          }
+        ]
+      }
     }
   ]
 }
